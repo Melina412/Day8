@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+nav {
+  height: 76px;
+  width: 1512px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 1512px;
+  position: fixed;
+}
+
+.logo {
+  font-size: 24px;
+  color: #666;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+ul {
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 500px;
+  height: 55px;
+  align-content: center;
+}
+
+nav a {
+  font-size: 14px;
+  color: #333;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #337ab7;
+}
+
+header {
+  width: 1512px;
+  height: 1009px;
+}
+
+.header-background {
+  background-image: url(../assets/img/3_1.png);
+  background-size: cover;
+  font-family: Raleway;
+  color: #fff;
+  width: 1512px;
+  height: 934px;
+  padding-top: 21px;
+  margin-bottom: 54px;
+  border-bottom: 21px solid #fff;
+  border-top: 54px solid #fff;
+}
+
+.header-content {
+  width: 1028px;
+  height: 222px;
+  margin: 0 auto;
+  margin-top: 317px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.buttons {
+  width: 408px;
+  height: 54px;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.read-more {
+  background-color: #745cf9;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  width: 200px;
+  height: 54px;
+  box-sizing: border-box;
+  transition: background-color 1s, color 1s;
+}
+
+.read-more:hover {
+  background-color: #5240b6;
+}
+
+.download-now {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 12px;
+  width: 200px;
+  height: 54px;
+  box-sizing: border-box;
+  transition: background-color 1s, color 1s;
+}
+.download-now:hover {
+  background-color: #fff;
+  color: #000;
+}
